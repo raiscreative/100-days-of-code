@@ -1,0 +1,19 @@
+print('Hello World!')
+
+print("Day 1 - Python Print Function\nThe function is declared like this:\nprint('what to print')")
+
+a = input('Your first number: ')
+b = input('Your second number: ')
+print('**************************')
+print('      SWITCHING NOW       ')
+print('**************************')
+c = a
+a = b
+b = c
+print('a:', a)
+print('b:', b)
+
+print('Hello!\nWelcome to the Band Name Generator!\nPlease answer a couple of  questions to get an idea for your band name.')
+town = input('Firstly, tell us what is your hometown.\n')
+pet = input('What a great town! Now, what is the name of your pet?\n')
+print('Amazing!\nHow about naming your band ' + str(town) + ' ' +str(pet) + '?')
