@@ -23,6 +23,10 @@ while game_on:
             else:
                 price = 12
             print(f'The ticket is ${price}')
+            photo = input('Do you want a photo taken? y/n\n')
+            if photo.lower().startswith('y'):
+                price += 3
+                print(f'Thank you. The ticket is ${price}')
             pay = input('Do you want to buy a ticket now? y/n')
             if pay.lower().startswith('n'):
                 print('Very well then, please come another time. Have a nice day.')
