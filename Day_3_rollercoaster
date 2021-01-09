@@ -16,6 +16,9 @@ while game_on:
         else:
             print('Congratulations, you are hight enough to ride the rollercoaster!')
             age = int(input('How old are you?\n'))
+            if 45 <= age <= 55:
+                price = 0
+                print('Have fun and enjoy life, this ride is free!')
             if age <= 12:
                 price = 5
             elif age < 18:
