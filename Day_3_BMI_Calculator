@@ -10,7 +10,7 @@ while game_on:
     print(
         f'You are {height}m height and {weight}kg.'
     )
-    bmi = round(weight / height**2, 2)
+    bmi = round(weight / height**2)
     if bmi < 18.5:
         print(f'Your BMI is {bmi}. You are underweight.')
     elif bmi < 25:
