@@ -6,4 +6,4 @@ for height in heights:
     students += 1
     heights_sum += int(height)
 average_height = round(heights_sum / students)
-print(f'The average height is {average_height}.')
+print(f'The average height is: {average_height}.')
