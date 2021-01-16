@@ -8,7 +8,7 @@ else:
     max_num = 1000
 guesses = 5
 print(f'Your goal is to guess a number between 1 and {max_num}. You have {guesses} guesses.')
-num_chosen = random.randint(1, max_num + 1)
+num_chosen = random.randint(1, max_num)
 guess = -1
 while guess != num_chosen and guesses >=1:
     guess = int(input(f'Go ahead. Make a guess. Still {guesses} guesses left.\n'))
