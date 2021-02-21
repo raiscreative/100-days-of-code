@@ -119,7 +119,7 @@ password_label.grid(column=0, row=3)
 password_entry.grid(column=1, row=3, sticky="W")
 #password_button.grid(column=2, row=3, sticky="EW")
 add_button.grid(column=1, row=4, columnspan=2, sticky="EW")
-search_button.grid(row=1, column=2, sticky='EW')
+search_button.grid(column=2, row=1, sticky='EW')
 
 
 window.mainloop()
