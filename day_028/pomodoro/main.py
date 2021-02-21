@@ -39,7 +39,7 @@ def start_timer():
 
     if reps > 8:
         reset_timer()
-    elif reps == 0:
+    elif reps == 8:
         count_down(long_break_sec)
         title_label.config(text='Long Break', fg=RED)
     elif reps % 2 == 0:
